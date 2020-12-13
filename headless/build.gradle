@@ -1,6 +1,7 @@
 apply plugin: 'application'
 
 sourceCompatibility = 8.0
+sourceSets.main.java.srcDirs = [ "src" ]
 mainClassName = 'com.argentumcore.client.headless.HeadlessLauncher'
 eclipse.project.name = appName + '-headless'
 
