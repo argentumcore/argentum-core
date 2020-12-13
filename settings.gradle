@@ -1,0 +1,1 @@
+include 'headless', 'ios', 'android', 'lwjgl3', 'core'
