@@ -1,9 +1,10 @@
 package com.argentumcore.client.headless;
 
+import com.argentumcore.client.GameOptions;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.backends.headless.HeadlessApplication;
 import com.badlogic.gdx.backends.headless.HeadlessApplicationConfiguration;
-import com.argentumcore.client.Main;
+import com.argentumcore.client.Game;
 
 /** Launches the headless application. Can be converted into a utilities project or a server application. */
 public class HeadlessLauncher {
@@ -13,7 +14,8 @@ public class HeadlessLauncher {
 
 	private static Application createApplication() {
 		// Note: you can use a custom ApplicationListener implementation for the headless project instead of Main.
-		return new HeadlessApplication(new Main(), getDefaultConfiguration());
+		GameOptions options = new GameOptions(null);
+		return new HeadlessApplication(new Game(options), getDefaultConfiguration());
 	}
 
 	private static HeadlessApplicationConfiguration getDefaultConfiguration() {
