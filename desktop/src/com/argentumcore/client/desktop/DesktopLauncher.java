@@ -20,7 +20,7 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration configuration = new Lwjgl3ApplicationConfiguration();
 		configuration.setTitle("Argentum Core");
 		configuration.setWindowedMode(1024, 768);
-		configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");
+		configuration.setWindowIcon("icons/icon128.png", "icons/icon64.png", "icons/icon32.png", "icons/icon16.png");
 		return configuration;
 	}
 }

@@ -3,6 +3,9 @@ apply plugin: 'robovm'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 sourceSets.main.java.srcDirs = [ "src" ]
 
+sourceCompatibility = 8.0
+targetCompatibility = 8.0
+
 ext {
 	mainClassName = "com.argentumcore.client.ios.IOSLauncher"
 }
