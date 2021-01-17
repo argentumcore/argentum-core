@@ -6,6 +6,7 @@ sourceCompatibility = 8.0
 dependencies {
 	api "com.badlogicgames.gdx:gdx:$gdxVersion"
 	api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+	api "org.koin:koin-core:$koinVersion"
 	api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
 	api "io.github.libktx:ktx-app:$ktxVersion"
 	api "io.github.libktx:ktx-async:$ktxVersion"
@@ -22,5 +23,4 @@ dependencies {
 	api "io.github.libktx:ktx-preferences:$ktxVersion"
 	api "io.github.libktx:ktx-scene2d:$ktxVersion"
 	api "io.github.libktx:ktx-style:$ktxVersion"
-
 }

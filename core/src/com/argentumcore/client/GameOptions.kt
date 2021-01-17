@@ -1,5 +1,5 @@
 package com.argentumcore.client
 
 data class GameOptions(
-    var musicPlayer: String?
+    var midiPlayer: IMidiPlayer? = null
 )
