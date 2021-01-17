@@ -3,14 +3,15 @@ package com.argentumcore.client
 import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.Screen
 import com.badlogic.gdx.graphics.GL20
-import com.badlogic.gdx.graphics.Texture
-import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import ktx.app.KtxGame
 
-class Game(options: GameOptions) : KtxGame<Screen>() {
+class Game(private val options: GameOptions) : KtxGame<Screen>() {
 
     override fun create() {
         Gdx.graphics.setTitle("Argentum Core")
+
+        Modules.init(options)
+
     }
 
     override fun render() {

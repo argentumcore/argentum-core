@@ -1,1 +1,2 @@
 include 'headless', 'ios', 'android', 'desktop', 'core'
+rootProject.name = "Argentum Core"
