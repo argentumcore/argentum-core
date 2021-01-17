@@ -20,11 +20,9 @@ object Modules {
             })
         }
 
-        var koinApplication = startKoin {
+        startKoin {
             modules(moduleList)
         }
-
-        koinApplication.modules()
     }
 
 }
