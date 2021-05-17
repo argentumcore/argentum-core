@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">argentum-core</string>
-
+    <string name="app_name">Argentum Core</string>
 </resources>
